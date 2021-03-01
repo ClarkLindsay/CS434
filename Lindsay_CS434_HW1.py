@@ -1,5 +1,5 @@
 #!/usr/local/bin/python3
-testing
+
 import numpy as np
 import matplotlib.pyplot as plt
 
