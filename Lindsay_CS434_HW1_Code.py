@@ -60,13 +60,15 @@ for i in range(len(xt)):
 # w = mul(y, psuinv)
 # print(w)
 
+# Dot product of y and the pseudo-inverse
 w = dot(y, psuinv)
-print("Best fit of W: " + str(w))
+print("Optimal value of w: " + str(w))
 
 # I made the same mistake with h here that I did with w before, thinking it needed this type of multiplication
 # h = mul(w, x)
 # print(h)
 
+# Multiply the w value found in the training section by the starting x values
 h = scalarmul(w, x)
 print("h(x): " + str(h))
 
